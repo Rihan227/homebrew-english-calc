@@ -2,7 +2,7 @@ class EnglishCalc < Formula
   desc "English-based calculator (e.g., 'five plus three')"
   homepage "https://github.com/Rihan227/english-calc"
   url "https://github.com/Rihan227/english-calc/archive/refs/tags/v1.0.0.zip"
-  sha256 "09064abb06e39e7b47f062aafcabee68740937d4f1936800d46c635abb65bb43"
+  sha256 "4c9e33f36343b5f5f06b6039777c53a2f01b047729cce1bb1672e179a48ff174"
   license "MIT"
   version "1.0.0"
 
@@ -15,4 +15,5 @@ class EnglishCalc < Formula
     system "#{bin}/english-calc", "two plus two"
   end
 end
+
 
